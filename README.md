@@ -1,5 +1,7 @@
 # 기획서 → 블랙박스 테스트 케이스 생성 에이전트
 
+> 그림으로 된 사용 매뉴얼: [docs/ds_tcmaker_manual.pptx](docs/ds_tcmaker_manual.pptx)
+
 피그마에서 내보낸 기획서(PDF/이미지)를 `specs/` 폴더에 넣으면, Claude가 기획 로직을 분석해
 `output/` 폴더에 블랙박스 테스트 케이스를 만들어 줍니다.
 
