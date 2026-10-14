@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "TC 생성 (specs/ 새 파일)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "TC 생성 (폴더 감시)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": ["--watch"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "타일만 미리보기 (dry-run)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": ["--dry-run", "--force"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

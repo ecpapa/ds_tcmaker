@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# 기획서와 생성 결과는 사내 문서일 수 있으므로 커밋하지 않습니다.
+specs/*
+!specs/.gitkeep
+output/*
+!output/.gitkeep
